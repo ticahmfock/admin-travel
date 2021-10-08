@@ -1,4 +1,6 @@
 import { createStore } from 'vuex'
+import {constant} from './modules/constant'
+import {getters} from './getters'
 
 export default createStore({
   state: {
@@ -8,5 +10,7 @@ export default createStore({
   actions: {
   },
   modules: {
-  }
+    constant
+  },
+  getters
 })
