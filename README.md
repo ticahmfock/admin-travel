@@ -43,6 +43,10 @@ npm install vue-router
 vue add router
 ```
 
+### axios
+```
+npm install --save axios vue-axios
+```
 
 ## 项目设置
 ```
